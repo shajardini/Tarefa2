@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const { queryAsync } = require('./src/db/db'); 
+
 const authController = require('./src/controllers/authController');
 
 const app = express();
